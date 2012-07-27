@@ -2,19 +2,29 @@ App.Router = Backbone.Router.extend({
 	routes: {
 		"": "showHome",
 		"categories": "showCategories",
+		"category/:id": "showCategory",
 		"article/:id": "showArticle",
 		"search": "showSearch",
 		"search/:query": "showSearch",
 		"*page": "defaultRoute"
 	},
 	showHome: function() {
-		$(document.body).append("home<br>");
+		this.hideAll();
+		App.Views.CategoryList.render();
 	},
 	showCategories: function() {
-		$(document.body).append("categories<br>");
+		this.hideAll();
+		App.Views.CategoryList.render();
+	},
+	showCategory: function(id) {
+		this.hideAll();
+		App.Views.Category.load(id);
+		App.Views.Category.render();
 	},
 	showArticle: function(id) {
-		$(document.body).append("article #"+id+"<br>");
+		this.hideAll();
+		App.Views.Article.load(id);
+		App.Views.Article.render();
 	},
 	showSearch: function(query) {
 		$(document.body).append("search ");
@@ -24,5 +34,10 @@ App.Router = Backbone.Router.extend({
 	},
 	defaultRoute: function(page) {
 		$(document.body).append("default<br>");
+	},
+	hideAll: function() {
+		$.each(App.Views, function(key,item) {
+			item.hide()
+		});
 	}
 });

@@ -1,6 +1,6 @@
 var App = {
 	init: function() {
-		App.router = new App.Router();
+		App.Router = new App.Router();
 		Backbone.history.start();
 		return this;
 	}

@@ -6,3 +6,7 @@ App.Models.Category = Backbone.Model.extend({
 		color: '#FFFFFF'
 	}
 });
+
+App.Collections.Categories = Backbone.Collection.extend({
+	model: App.Models.Category
+});

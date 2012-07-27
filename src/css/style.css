@@ -1,0 +1,132 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html, body {
+	width:100%;
+	height:100%;
+	min-height:100%;
+	margin:0px;
+	padding:0px;
+	font: 1em "Helvetica";
+	background:white;
+	color:black;
+	background-image:url('bg.png');
+}
+
+.panel {
+	margin:0px auto;
+	height:115px;
+	line-height:80%;
+	float:left; 
+	text-align:center;
+	font-weight:bold;
+}
+
+/* Media queries */
+@media only screen and (min-width: 320px) {
+	.panel { 
+		width:33.33%; 
+		font-size:90%;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.panel { 
+		width:20%;
+		font-size:90%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.panel { 
+		width:10%;
+		font-size:100%;
+	}
+}
+
+.thumbnail {
+	margin:5px auto;
+	
+	background:no-repeat center center; 
+	background-position:center center;
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	
+	width:80px;
+	height:80px;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	
+	-webkit-box-shadow: 6px 8px 6px -6px black;
+	-moz-box-shadow: 6px 8px 6px -6px black;
+	box-shadow: 6px 8px 6px -6px black;
+}
+
+.categoryname {
+	width:100%;
+	height:30;
+	color:white;
+	float:left; 
+	text-align: center;
+	font-weight:bold;
+}
+
+.toparticle {
+	width:100%;
+	height:100px;
+	background:no-repeat center center; 
+	background-position:center center;
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+
+.listarticle0 { background:white; }
+.listarticle1 { background:#dddddd; }
+
+.listarticle0 .listarticle1 {
+	position:absolute; 
+	top:50%;
+	width:100%;
+	height:90px;
+	color:black;
+	vertical-align:middle;
+}
+
+.articlethumbnail {
+	margin:5px auto;
+	display:inline-block;
+	
+	
+	background:no-repeat center center; 
+	background-position:center center;
+	background-repeat:no-repeat; 
+	background-size:cover; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	
+	width:50px;
+	height:50px;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	
+	-webkit-box-shadow: 6px 8px 6px -6px black;
+	-moz-box-shadow: 6px 8px 6px -6px black;
+	box-shadow: 6px 8px 6px -6px black;
+}
+
+.panel span {
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+}
