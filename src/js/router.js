@@ -1,16 +1,11 @@
 App.Router = Backbone.Router.extend({
 	routes: {
-		"": "showHome",
 		"categories": "showCategories",
 		"category/:id": "showCategory",
 		"article/:id": "showArticle",
 		"search": "showSearch",
 		"search/:query": "showSearch",
 		"*page": "defaultRoute"
-	},
-	showHome: function() {
-		this.hideAll();
-		App.Views.CategoryList.render();
 	},
 	showCategories: function() {
 		this.hideAll();
@@ -33,7 +28,8 @@ App.Router = Backbone.Router.extend({
 		$(document.body).append("<br>");
 	},
 	defaultRoute: function(page) {
-		$(document.body).append("default<br>");
+		this.hideAll();
+		App.Views.CategoryList.render();
 	},
 	hideAll: function() {
 		$.each(App.Views, function(key,item) {

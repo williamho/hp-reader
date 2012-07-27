@@ -34,13 +34,20 @@ App.Views.Category = Backbone.View.extend({
 		$.ajaxJSONP({
 			url: 'http://www.huffingtonpost.com/api/?t=featured_news&vertical=' + id + '&limit=50&mobile=true&link_outs=true&callback=?',
 			success: function(data) {
-				$("#category").append("<div class='categoryname'>"+id+"</div>");
+				$("#category").html("<div class='categoryname'>"+id+"</div><br><table id='articletable'></table>");
+				elem = $("#articletable");
 				$.each(data.response,function(index,item) {
-					if (index==0) {
-						$("#category").append("<div class='toparticle' style=\"background-image:url('"+ item.headline_image +"');\"></div>");
-					}
-					$("#category").append("<div class='listarticle"+index%2+"' onclick=\"location.href='#/article/"+ item.entry_id +"'\">" + 
-						"<div class='articlethumbnail' style=\"background-image:url('"+ item.entry_image +"')\"></div> "+item.entry_title+"</div>");
+					if (index==0)
+						elem.append("<tr> <td colspan='2'><div class='toparticle' style=\"background-image:url('"+ item.headline_image +"');\"></div></td></tr>");
+					
+					if (item.entry_image == "")
+						img_attr = "style='display:none'";
+					else
+						img_attr = "style=\"background-image:url('"+ item.entry_image +"')\" ";
+					
+					elem.append("<tr onclick=\"location.href='#/article/"+ item.entry_id +"'\">" +
+						"<td><div class='articlethumbnail' "+img_attr+"></div></td>" +
+						"<td>"+item.entry_title+"</td></tr>");
 				});
 			}
 		});	
@@ -61,8 +68,9 @@ App.Views.Article = Backbone.View.extend({
 			url: 'http://www.huffingtonpost.com/api/?t=entry&tags=1&ftext=1&headline=true&entry_ids=' + id + '&callback=?',
 			success: function(data) {
 				$.each(data.response,function(index,item) {
-					$("#article").append("<h1>"+item.entry_front_page_title+"</h1>");
-					$("#article").append("<center><img src='"+item.entry_image.replace(/mini/g, 'large')+"'></center><br>");
+					$("#article").append("<center><h1>"+item.entry_title+"</h1></center>");
+					if (item.entry_image)
+						$("#article").append("<center><img src='"+item.entry_image.replace(/mini/g, 'large')+"'></center><br>");
 					$("#article").append(item.entry_text.replace(/\n/g, '<br />'));
 				});
 			}

@@ -9,7 +9,6 @@ html, body {
 	font: 1em "Helvetica";
 	background:white;
 	color:black;
-	background-image:url('bg.png');
 }
 
 .panel {
@@ -69,10 +68,10 @@ html, body {
 
 .categoryname {
 	width:100%;
-	height:30;
 	color:white;
+	background-color:#aaaaaa;
 	float:left; 
-	text-align: center;
+	text-align:center;
 	font-weight:bold;
 }
 
@@ -88,22 +87,24 @@ html, body {
 	-o-background-size:cover;
 }
 
-.listarticle0 { background:white; }
-.listarticle1 { background:#dddddd; }
-
-.listarticle0 .listarticle1 {
-	position:absolute; 
-	top:50%;
+tr:nth-child(odd) { background-color: white; }
+tr:nth-child(even) { background-color: #dddddd; }
+table {
 	width:100%;
-	height:90px;
-	color:black;
-	vertical-align:middle;
+	margin:0px;
+	border:0px;
+}
+tr {
+	height:70px;
+	vertical-align:center;
+}
+td {
+	min-width:58px;
 }
 
 .articlethumbnail {
 	margin:5px auto;
 	display:inline-block;
-	
 	
 	background:no-repeat center center; 
 	background-position:center center;
@@ -129,4 +130,12 @@ html, body {
 .panel span {
 	background-color:rgba(0,0,0,0.3);
 	color:white;
+}
+
+#categorylist {
+	background-image:url('bg.png');
+}
+
+#article {
+	padding:10;
 }
