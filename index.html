@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link rel="stylesheet" type="text/css" href="src/css/style.css" />
+	
+	<script type="text/javascript" src="src/lib/zepto.min.js"></script>
+	<script type="text/javascript" src="src/lib/underscore-min.js"></script>
+	<script type="text/javascript" src="src/lib/backbone-min.js"></script>
+	
+	<script type="text/javascript" src="src/js/app.js"></script>
+	<script type="text/javascript" src="src/js/views.js"></script>
+	<script type="text/javascript" src="src/js/router.js"></script>
+</head>
+<body>
+<div id="categorylist"></div>
+<div id="category"></div>
+<div id="article"></div>
+<div id="start"></div>
+
+<script type="text/javascript">
+if (!$){$ = Zepto}; //zepto fix
+
+$(App.init);
+</script>
+</body>
+</html>

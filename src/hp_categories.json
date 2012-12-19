@@ -1,0 +1,1298 @@
+{
+    "ca": {
+        "name": "Canada",
+        "code": "ca",
+        "categories": [
+            {
+                "index": 6,
+                "title": "Front Page",
+                "key": "canada",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 18,
+                "title": "Politics",
+                "key": "canada-politics",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#134f89"
+                ]
+            },
+            {
+                "index": 30,
+                "title": "Business",
+                "key": "canada-business",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            },
+            {
+                "index": 33,
+                "title": "Money",
+                "key": "money",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            },
+            {
+                "index": 36,
+                "title": "Media",
+                "key": "media",
+                "colors": [
+                    "#eba121",
+                    "#df5f26",
+                    "#ff6600"
+                ]
+            },
+            {
+                "index": 39,
+                "title": "Tech",
+                "key": "technology",
+                "colors": [
+                    "#717080",
+                    "#34343a",
+                    "#616070"
+                ]
+            },
+            {
+                "index": 45,
+                "title": "Entertainment",
+                "key": "entertainment",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 51,
+                "title": "Celebrity",
+                "key": "celebrity",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 57,
+                "title": "Comedy",
+                "key": "comedy",
+                "colors": [
+                    "#d22827",
+                    "#9e1d20",
+                    "#bf1900"
+                ]
+            },
+            {
+                "index": 63,
+                "title": "Sports",
+                "key": "sports",
+                "colors": [
+                    "#616262",
+                    "#222222",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 69,
+                "title": "Canada Style",
+                "key": "canada-style",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 72,
+                "title": "Stylelist",
+                "key": "stylelist",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 75,
+                "title": "Stylelist Home",
+                "key": "stylelist-home",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 84,
+                "title": "Culture",
+                "key": "culture",
+                "colors": [
+                    "#2c5b64",
+                    "#51b5a9",
+                    "#2c5b64"
+                ]
+            },
+            {
+                "index": 93,
+                "title": "World",
+                "key": "world",
+                "colors": [
+                    "#2f91cf",
+                    "#145794",
+                    "#095995"
+                ]
+            },
+            {
+                "index": 96,
+                "title": "Green",
+                "key": "green",
+                "colors": [
+                    "#63a800",
+                    "#3c7e00",
+                    "#399800"
+                ]
+            },
+            {
+                "index": 99,
+                "title": "Science",
+                "key": "science",
+                "colors": [
+                    "#5d7c94",
+                    "#123d60",
+                    "#5d7c94"
+                ]
+            },
+            {
+                "index": 102,
+                "title": "Food",
+                "key": "food",
+                "colors": [
+                    "#7f5869",
+                    "#481327",
+                    "#380818"
+                ]
+            },
+            {
+                "index": 105,
+                "title": "Kitchen Daily",
+                "key": "kitchendaily",
+                "colors": [
+                    "#b0c9a2",
+                    "#596e33",
+                    "#7d8a66"
+                ]
+            },
+            {
+                "index": 108,
+                "title": "Crime",
+                "key": "crime",
+                "colors": [
+                    "#7f593e",
+                    "#513420",
+                    "#513420"
+                ]
+            },
+            {
+                "index": 111,
+                "title": "Weird News",
+                "key": "weird-news",
+                "colors": [
+                    "#627172",
+                    "#ed7c00",
+                    "#ed7c00"
+                ]
+            },
+            {
+                "index": 115,
+                "title": "Canada Travel",
+                "key": "canada-travel",
+                "colors": [
+                    "#3ca5c5",
+                    "#26748d",
+                    "#2391aa"
+                ]
+            },
+            {
+                "index": 117,
+                "title": "TV",
+                "key": "tv",
+                "colors": [
+                    "#d22827",
+                    "#9e1d20",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 120,
+                "title": "Canada Living",
+                "key": "canada-living",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 123,
+                "title": "Healthy Living",
+                "key": "healthy-living",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 126,
+                "title": "Health and Fitness",
+                "key": "health-fitness",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 129,
+                "title": "Health News",
+                "key": "health-news",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 132,
+                "title": "GPS For the Soul",
+                "key": "gps-for-the-soul",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 135,
+                "title": "Women",
+                "key": "women",
+                "colors": [
+                    "#ba73ba",
+                    "#996699",
+                    "#996699"
+                ]
+            },
+            {
+                "index": 138,
+                "title": "Black Voices",
+                "key": "black-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 141,
+                "title": "Latino Voices",
+                "key": "latino-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 144,
+                "title": "Gay Voices",
+                "key": "gay-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 147,
+                "title": "Parents",
+                "key": "parents",
+                "colors": [
+                    "#8dc63f",
+                    "#745396",
+                    "#9edc49"
+                ]
+            },
+            {
+                "index": 150,
+                "title": "Weddings",
+                "key": "weddings",
+                "colors": [
+                    "#d8c985",
+                    "#d98bac",
+                    "#d8c985"
+                ]
+            },
+            {
+                "index": 153,
+                "title": "Divorce",
+                "key": "divorce",
+                "colors": [
+                    "#408397",
+                    "#0d4150",
+                    "#003b48"
+                ]
+            },
+            {
+                "index": 156,
+                "title": "Huff/Post50",
+                "key": "fifty",
+                "colors": [
+                    "#999999",
+                    "#676767",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 159,
+                "title": "Arts",
+                "key": "arts",
+                "colors": [
+                    "#999999",
+                    "#676767",
+                    "#6d6d6d"
+                ]
+            },
+            {
+                "index": 162,
+                "title": "Books",
+                "key": "books",
+                "colors": [
+                    "#f25f00",
+                    "#d71600",
+                    "#f75301"
+                ]
+            },
+            {
+                "index": 165,
+                "title": "Religion",
+                "key": "religion",
+                "colors": [
+                    "#ae6ee9",
+                    "#7b1f93",
+                    "#771c85"
+                ]
+            },
+            {
+                "index": 168,
+                "title": "Impact",
+                "key": "impact",
+                "colors": [
+                    "#ee72ab",
+                    "#e91e86",
+                    "#d33578"
+                ]
+            },
+            {
+                "index": 171,
+                "title": "Good News",
+                "key": "good-news",
+                "colors": [
+                    "#ff9d00",
+                    "#e28a26",
+                    "#ff9d00"
+                ]
+            },
+            {
+                "index": 174,
+                "title": "Education",
+                "key": "education",
+                "colors": [
+                    "#edb007",
+                    "#d28500",
+                    "#e7ab03"
+                ]
+            },
+            {
+                "index": 177,
+                "title": "College",
+                "key": "college",
+                "colors": [
+                    "#6598d0",
+                    "#365d8a",
+                    "#488bd1"
+                ]
+            },
+            {
+                "index": 183,
+                "title": "Teen",
+                "key": "high-school",
+                "colors": [
+                    "#6598d0",
+                    "#365d8a",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 186,
+                "title": "Small Business",
+                "key": "small-business",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            }
+        ]
+    },
+    "uk": {
+        "name": "United Kingdom",
+        "code": "uk",
+        "categories": [
+            {
+                "index": 3,
+                "title": "Front Page",
+                "key": "uk",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#b10000"
+                ]
+            },
+            {
+                "index": 15,
+                "title": "Politics",
+                "key": "uk-politics",
+                "colors": [
+                    "#2889c7",
+                    "#134f89",
+                    "#134f89"
+                ]
+            },
+            {
+                "index": 93,
+                "title": "World",
+                "key": "world",
+                "colors": [
+                    "#2f91cf",
+                    "#145794",
+                    "#095995"
+                ]
+            },
+            {
+                "index": 273,
+                "title": "UK Sports",
+                "key": "uk-sport",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 276,
+                "title": "Tech",
+                "key": "uk-tech",
+                "colors": [
+                    "#717080",
+                    "#34343a",
+                    "#095995"
+                ]
+            },
+            {
+                "index": 279,
+                "title": "Entertainment",
+                "key": "uk-entertainment",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 282,
+                "title": "Celebrity",
+                "key": "uk-celebrity",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 285,
+                "title": "Comedy",
+                "key": "uk-comedy",
+                "colors": [
+                    "#d22827",
+                    "#9e1d20",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 288,
+                "title": "Style",
+                "key": "uk-style",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 301,
+                "title": "Culture",
+                "key": "uk-culture",
+                "colors": [
+                    "#2c5b64",
+                    "#51b5a9",
+                    "#2c5b64"
+                ]
+            },
+            {
+                "index": 304,
+                "title": "Lifestyle",
+                "key": "uk-lifestyle",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 307,
+                "title": "Education",
+                "key": "uk-universities-education",
+                "colors": [
+                    "#6598d0",
+                    "#365d8a",
+                    "#365d8a"
+                ]
+            }
+        ]
+    },
+    "us": {
+        "name": "United States",
+        "code": "us",
+        "categories": [
+            {
+                "index": 0,
+                "title": "Front Page",
+                "key": "home",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#b10000"
+                ]
+            },
+            {
+                "index": 21,
+                "title": "Politics",
+                "key": "politics",
+                "colors": [
+                    "#2889c7",
+                    "#134f89",
+                    "#095995"
+                ]
+            },
+            {
+                "index": 27,
+                "title": "Business",
+                "key": "business",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            },
+            {
+                "index": 33,
+                "title": "Money",
+                "key": "money",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            },
+            {
+                "index": 36,
+                "title": "Media",
+                "key": "media",
+                "colors": [
+                    "#eba121",
+                    "#df5f26",
+                    "#ff6600"
+                ]
+            },
+            {
+                "index": 39,
+                "title": "Tech",
+                "key": "technology",
+                "colors": [
+                    "#717080",
+                    "#34343a",
+                    "#616070"
+                ]
+            },
+            {
+                "index": 45,
+                "title": "Entertainment",
+                "key": "entertainment",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 51,
+                "title": "Celebrity",
+                "key": "celebrity",
+                "colors": [
+                    "#ad1f23",
+                    "#7c1315",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 57,
+                "title": "Comedy",
+                "key": "comedy",
+                "colors": [
+                    "#d22827",
+                    "#9e1d20",
+                    "#bf1900"
+                ]
+            },
+            {
+                "index": 63,
+                "title": "Sports",
+                "key": "sports",
+                "colors": [
+                    "#616262",
+                    "#222222",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 66,
+                "title": "Style",
+                "key": "style",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 72,
+                "title": "Stylelist",
+                "key": "stylelist",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 75,
+                "title": "Stylelist Home",
+                "key": "stylelist-home",
+                "colors": [
+                    "#c91c77",
+                    "#85194c",
+                    "#85194c"
+                ]
+            },
+            {
+                "index": 84,
+                "title": "Culture",
+                "key": "culture",
+                "colors": [
+                    "#2c5b64",
+                    "#51b5a9",
+                    "#2c5b64"
+                ]
+            },
+            {
+                "index": 93,
+                "title": "World",
+                "key": "world",
+                "colors": [
+                    "#2f91cf",
+                    "#145794",
+                    "#095995"
+                ]
+            },
+            {
+                "index": 96,
+                "title": "Green",
+                "key": "green",
+                "colors": [
+                    "#63a800",
+                    "#3c7e00",
+                    "#399800"
+                ]
+            },
+            {
+                "index": 99,
+                "title": "Science",
+                "key": "science",
+                "colors": [
+                    "#5d7c94",
+                    "#123d60",
+                    "#5d7c94"
+                ]
+            },
+            {
+                "index": 102,
+                "title": "Food",
+                "key": "food",
+                "colors": [
+                    "#7f5869",
+                    "#481327",
+                    "#380818"
+                ]
+            },
+            {
+                "index": 105,
+                "title": "Kitchen Daily",
+                "key": "kitchendaily",
+                "colors": [
+                    "#b0c9a2",
+                    "#596e33",
+                    "#7d8a66"
+                ]
+            },
+            {
+                "index": 108,
+                "title": "Crime",
+                "key": "crime",
+                "colors": [
+                    "#7f593e",
+                    "#513420",
+                    "#513420"
+                ]
+            },
+            {
+                "index": 111,
+                "title": "Weird News",
+                "key": "weird-news",
+                "colors": [
+                    "#627172",
+                    "#ed7c00",
+                    "#ed7c00"
+                ]
+            },
+            {
+                "index": 114,
+                "title": "Travel",
+                "key": "travel",
+                "colors": [
+                    "#3ca5c5",
+                    "#26748d",
+                    "#2391aa"
+                ]
+            },
+            {
+                "index": 117,
+                "title": "TV",
+                "key": "tv",
+                "colors": [
+                    "#d22827",
+                    "#9e1d20",
+                    "#850101"
+                ]
+            },
+            {
+                "index": 123,
+                "title": "Healthy Living",
+                "key": "healthy-living",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 126,
+                "title": "Health and Fitness",
+                "key": "health-fitness",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 129,
+                "title": "Health News",
+                "key": "health-news",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 132,
+                "title": "GPS For the Soul",
+                "key": "gps-for-the-soul",
+                "colors": [
+                    "#2a2a2a",
+                    "#7ab4c2",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 135,
+                "title": "Women",
+                "key": "women",
+                "colors": [
+                    "#ba73ba",
+                    "#996699",
+                    "#996699"
+                ]
+            },
+            {
+                "index": 138,
+                "title": "Black Voices",
+                "key": "black-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 141,
+                "title": "Latino Voices",
+                "key": "latino-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 142,
+                "title": "Voces",
+                "key": "voces",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 144,
+                "title": "Gay Voices",
+                "key": "gay-voices",
+                "colors": [
+                    "#999999",
+                    "#ed4c4c",
+                    "#f75656"
+                ]
+            },
+            {
+                "index": 147,
+                "title": "Parents",
+                "key": "parents",
+                "colors": [
+                    "#8dc63f",
+                    "#745396",
+                    "#9edc49"
+                ]
+            },
+            {
+                "index": 150,
+                "title": "Weddings",
+                "key": "weddings",
+                "colors": [
+                    "#d8c985",
+                    "#d98bac",
+                    "#d8c985"
+                ]
+            },
+            {
+                "index": 153,
+                "title": "Divorce",
+                "key": "divorce",
+                "colors": [
+                    "#408397",
+                    "#0d4150",
+                    "#003b48"
+                ]
+            },
+            {
+                "index": 156,
+                "title": "Huff/Post50",
+                "key": "fifty",
+                "colors": [
+                    "#999999",
+                    "#676767",
+                    "#7bb0bd"
+                ]
+            },
+            {
+                "index": 159,
+                "title": "Arts",
+                "key": "arts",
+                "colors": [
+                    "#999999",
+                    "#676767",
+                    "#6d6d6d"
+                ]
+            },
+            {
+                "index": 162,
+                "title": "Books",
+                "key": "books",
+                "colors": [
+                    "#f25f00",
+                    "#d71600",
+                    "#f75301"
+                ]
+            },
+            {
+                "index": 165,
+                "title": "Religion",
+                "key": "religion",
+                "colors": [
+                    "#ae6ee9",
+                    "#7b1f93",
+                    "#771c85"
+                ]
+            },
+            {
+                "index": 168,
+                "title": "Impact",
+                "key": "impact",
+                "colors": [
+                    "#ee72ab",
+                    "#e91e86",
+                    "#d33578"
+                ]
+            },
+            {
+                "index": 171,
+                "title": "Good News",
+                "key": "good-news",
+                "colors": [
+                    "#ff9d00",
+                    "#e28a26",
+                    "#ff9d00"
+                ]
+            },
+            {
+                "index": 174,
+                "title": "Education",
+                "key": "education",
+                "colors": [
+                    "#edb007",
+                    "#d28500",
+                    "#e7ab03"
+                ]
+            },
+            {
+                "index": 177,
+                "title": "College",
+                "key": "college",
+                "colors": [
+                    "#6598d0",
+                    "#365d8a",
+                    "#488bd1"
+                ]
+            },
+            {
+                "index": 183,
+                "title": "Teen",
+                "key": "high-school",
+                "colors": [
+                    "#6598d0",
+                    "#365d8a",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 186,
+                "title": "Small Business",
+                "key": "small-business",
+                "colors": [
+                    "#604b9e",
+                    "#2d256c",
+                    "#2b0073"
+                ]
+            },
+            {
+                "index": 189,
+                "title": "Chicago",
+                "key": "chicago",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 192,
+                "title": "DC",
+                "key": "dc",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 195,
+                "title": "Denver",
+                "key": "denver",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 198,
+                "title": "Detroit",
+                "key": "detroit",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 201,
+                "title": "Los Angeles",
+                "key": "los-angeles",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 204,
+                "title": "Miami",
+                "key": "miami",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 207,
+                "title": "New York",
+                "key": "new-york",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            },
+            {
+                "index": 210,
+                "title": "San Francisco",
+                "key": "san-francisco",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#039583"
+                ]
+            }
+        ]
+    },
+    "fr": {
+        "name": "France",
+        "code": "fr",
+        "categories": [
+            {
+                "index": 9,
+                "title": "A la Une",
+                "key": "france",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 213,
+                "title": "",
+                "key": "france-politique",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 216,
+                "title": "",
+                "key": "france-economie",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 219,
+                "title": "",
+                "key": "france-international",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 222,
+                "title": "",
+                "key": "france-culture",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 225,
+                "title": "",
+                "key": "france-tendances",
+                "colors": [
+                    "#000000",
+                    "#000000",
+                    "#000000"
+                ]
+            }
+        ]
+    },
+    "qc": {
+        "name": "Quebec",
+        "code": "qc",
+        "categories": [
+            {
+                "index": 12,
+                "title": "Page d'accueil",
+                "key": "canada-quebec",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#1f4b3e"
+                ]
+            },
+            {
+                "index": 228,
+                "title": "Politique",
+                "key": "qc-politique",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 231,
+                "title": "Divertissement",
+                "key": "qc-divertissement",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 234,
+                "title": "Sports",
+                "key": "qc-sports",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            }
+        ]
+    },
+    "es": {
+        "name": "Spain",
+        "code": "es",
+        "categories": [
+            {
+                "index": 13,
+                "title": "Portada",
+                "key": "spain",
+                "colors": [
+                    "#000000",
+                    "#000000",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 24,
+                "title": "Politica",
+                "key": "politica",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 35,
+                "title": "Economia",
+                "key": "economia",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 60,
+                "title": "Internacional",
+                "key": "internacional",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 70,
+                "title": "Tendencias",
+                "key": "tendencias",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            },
+            {
+                "index": 100,
+                "title": "Ciencia & Tecnologia",
+                "key": "ciencia-y-tecnologia",
+                "colors": [
+                    "#317162",
+                    "#1f4b3e",
+                    "#000000"
+                ]
+            }
+        ]
+    }
+}

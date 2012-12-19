@@ -1,0 +1,90 @@
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Backbone Example</title>
+</head>
+<body>
+<script type="text/javascript" src="src/lib/zepto.min.js"></script>
+<script type="text/javascript" src="src/lib/underscore-min.js"></script>
+<script type="text/javascript" src="src/lib/backbone-min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var App = {};
+		App.Views = {};
+		App.Router = Backbone.Router.extend({
+			routes: {
+				"": "showHome",
+				"categories": "showCategories",
+				"article/:id": "showArticle",
+				"search": "showSearch",
+				"search/:query": "showSearch",
+				"*page": "defaultRoute"
+			},
+			showHome: function() {
+				$(document.body).append("home<br>");
+			},
+			showCategories: function() {
+				$(document.body).append("categories<br>");
+				
+				App.Views.CategoryList.render();
+			},
+			showArticle: function(id) {
+				$(document.body).append("article #"+id+"<br>");
+			},
+			showSearch: function(query) {
+				$(document.body).append("search ");
+				if (query)
+					$(document.body).append("- " + query);
+				$(document.body).append("<br>");
+			},
+			defaultRoute: function(page) {
+				$(document.body).append("default<br>");
+			}
+		});
+
+		App.Router = new App.Router();
+
+		App.Views.CategoryList = Backbone.View.extend({
+			initialize: function() {
+				$("#content").hide();
+				var region = 'us';
+
+				$.getJSON('src/hp_categories.json', function(data) {
+					$.each(data[region].categories, function(index,item) {
+						$("#content").append("<div class='panel' style='color:" + item.colors[0] + ";'><div id='cat_" + item.key + "' class='thumbnail' style='color:white; background-color:" 
+							+ item.colors[0] + ";'></div>" + item.title + "</div>");
+					});
+					
+					$.each(data[region].categories, function(index, item) {
+						$.ajaxJSONP({
+							url: 'http://www.huffingtonpost.com/api/?t=featured_news&limit=1&mobile=true&link_outs=true&vertical=' + item.key + '&callback=?',
+							success: function(data) {
+								if (data.response[0] !== undefined && data.response[0].entry_image !== undefined)
+									$('#cat_'+item.key).css("background-image", "url(" + data.response[0].entry_image_large + ")");  
+							}
+						});	
+					});
+					
+				});
+			},
+			render: function() {
+				$("#content").show();
+			}
+		});
+
+		App.Views.CategoryList = new App.Views.CategoryList();
+
+		Backbone.history.start();
+	});
+</script>
+
+<ul id="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#/categories">Categories</a></li>
+    <li><a href="#/article/3">Article</a></li>
+    <li><a href="#/search/search query">Search</a></li>
+</ul>
+<div id="content"></div>
+</body>
+</html>
